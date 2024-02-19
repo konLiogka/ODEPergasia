@@ -1,29 +1,23 @@
+------------------------------
+USER MANUAL
+------------------------------
 
-------------------------
-ΟΔΗΓΙΕΣ ΧΡΗΣΗΣ
-------------------------
+This README file describes the process of running the program as well as the usage of its various functions.
 
-Το παρόν αρχείο README περιγράφει τη διαδικασία 
-εκτέλεσης του προγράμματος καθώς και τη χρήση των διαφόρων λειτουργιών του.
+To execute the program:
 
-Για την εκτέλεση του προγράμματος:
+1. Open a terminal in the folder containing the Python file (.py) or use the cd command to navigate to that folder.
 
-1. Άνοιγμα terminal στον φάκελο που περιέχει το αρχείο Python (.py)
-   ή χρήση εντολής cd για μετάβαση σε αυτόν τον φάκελο.
+2. Run the following command in the terminal: python erg.py
 
-2. Εκτέλεση της παρακάτω εντολής στο terminal: python erg.py
+Functions:
 
-Λειτουργίες:
+- Parts B, C, D are independent of each other. Thus, they can be executed separately.
 
-- Τα κομμάτια Β, Γ, Δ είναι ανεξάρτητα μεταξύ τους. Άρα μπορούν να εκτελεσθούν ξεχωριστά
+- The different algorithms for parts B, C can be selected as many times as the user wishes as they are in a loop until the 'Quit' option is chosen.
 
-- Οι διάφοροι αλγόριθμοι για τα κομμάτια Β,Γ μπορούν να επιλεχθούν όσες φορές 
-θελήσει ο χρήστης καθώς είναι σε λούπα μέχρι να γίνει η επιλογή 'Quit'.
+- For part D, the user can input the lift value as many times as desired to see the various rules generated.
 
-- Για το κομμάτι Δ, ο χρήστης μπορεί να εισάγει την τιμή lift όσες φορές 
-θελήσει για να δει τους διάφορους κανόνες που δημιουργούνται
+Libraries:
 
-
-Βιβλιοθήκες:
-
-pip install --upgrade -r requirements.txt 
+pip install --upgrade -r requirements.txt
