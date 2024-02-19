@@ -2,7 +2,7 @@
 # ODEPergasia
 Assignment for the course "Extraction and Information Mining"
 
-Written in python, using the libraries scikit learn for clustering and machine learning algorithms, matplotlib for showing graphs and visualising data and apyori for apriori algorithm.
+Written in python, using the libraries scikit learn for clustering and machine learning algorithms, matplotlib/seaborn for showing graphs and visualising data and apyori for apriori algorithm.
 
 # Task A - Imputation
 
