@@ -28,19 +28,24 @@ For proper classification of classes 8 and 9, minority oversampling using SMOTE 
 
 Naive Bayes algorithm, despite its simplicity in applying the Bayes rule assuming independence among features, doesn't yield satisfactory results, especially in terms of precision and recall.
 
-![NaiveByes](https://github.com/konLiogka/ODEPergasia/assets/78957746/89dc127e-93f8-463c-9830-1b06147db85a)
+![NaiveByes](https://github.com/konLiogka/ODEPergasia/assets/78957746/b29b73dc-0c0f-4a9d-8324-2bd1a91b9e9a)
+
+ 
 
 KNN, a widely used machine learning algorithm, can perform well depending on the value of K. Here, I set K to 35. The accuracy reaches 39%, with improved recall and precision for classes 8 and 9. However, for large datasets, training might be slow due to the algorithm needing to compute distances between samples.
 
-![KNN](https://github.com/konLiogka/ODEPergasia/assets/78957746/2aebe2a4-a14c-40d9-a01f-4b3cccd289f2)
+ ![KNN](https://github.com/konLiogka/ODEPergasia/assets/78957746/06f8a206-5bde-44d3-ae81-e2a0ffbe3009)
+
 
 Decision tree classifiers categorize data based on various decisions made at each node, offering straightforward interpretation. While the accuracy remains unchanged, there is an improvement in recall and precision, indicating fewer false negatives and false positives.
-
-![dt](https://github.com/konLiogka/ODEPergasia/assets/78957746/349388bb-2c86-4399-9061-d03a2e2ba209)
+ 
+![dt](https://github.com/konLiogka/ODEPergasia/assets/78957746/82e4fc31-e1ce-4ca3-8c9e-62840a2f78b8)
 
 
 Random forest performed the best (depth 15), which is essentially multiple decision trees. The output is decided by the output most trees agree with. SLightly better accuracy but overall better recall and precision.
-![rf](https://github.com/konLiogka/ODEPergasia/assets/78957746/558d75f0-8738-4243-9edf-eb502cef2df1)
+
+ ![rf](https://github.com/konLiogka/ODEPergasia/assets/78957746/edf11175-105b-4fe2-bc0e-c452d4581241)
+
 
 # Task D - Apriori:
 
