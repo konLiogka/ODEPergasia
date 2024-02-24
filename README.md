@@ -1,6 +1,6 @@
 
 # ODEPergasia
-Assignment for the course "Extraction and Information Mining"
+Assignment for the course "Organizational Data Mining" on the dataset "marketing.csv" for defining clusters of the samples and finding relationships between subjects based on their income.
 
 Written in python, using the libraries scikit learn for clustering and machine learning algorithms, matplotlib/seaborn for showing graphs and visualising data and apyori for apriori algorithm.
 
